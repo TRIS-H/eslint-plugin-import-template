@@ -1,0 +1,54 @@
+{
+  "name": "eslint-plugin-import-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A starter for creating a TypeScript package.",
+  "author": "TRIS-H <2218975525@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/TRIS-H/eslint-plugin-import-template#readme",
+  "bugs": {
+    "url": "https://github.com/TRIS-H/eslint-plugin-import-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TRIS-H/eslint-plugin-import-template"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "es6",
+    "jsnext",
+    "modules",
+    "assets",
+    "import",
+    "export"
+  ],
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "bumpp": "^10.3.2",
+    "tsdown": "^0.18.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "peerDependencies": {
+    "vue-eslint-parser": "^10.1.4"
+  }
+}
