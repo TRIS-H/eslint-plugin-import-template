@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-import-template",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint plugin for checking unresolved static asset paths in Vue SFC templates.",
   "author": "TRIS-H <2218975525@qq.com>",
   "license": "MIT",
