@@ -1,8 +1,10 @@
 # eslint-plugin-import-template
 
-An eslint plugin that checks the existence of static resources in the template, for example, checks whether the static resource files introduced in the sfc module exist. 
+An ESLint plugin for Vue SFC templates that checks unresolved static asset paths in `src` and `href` attributes.
 
-This plugin currently only supports static resource checking of the vue-sfc template. 
+It helps find missing local images, icons, and other template assets referenced by Vue single-file components before they become runtime 404 errors.
+
+Keywords: ESLint rule, Vue SFC, Vue template, vue-eslint-parser, static assets, asset exists, unresolved import, no-unresolved, src href, path alias.
 
 ## Install
 

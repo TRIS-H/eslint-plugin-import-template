@@ -1,8 +1,8 @@
 {
   "name": "eslint-plugin-import-template",
   "type": "module",
-  "version": "1.0.0",
-  "description": "A starter for creating a TypeScript package.",
+  "version": "1.0.1",
+  "description": "ESLint plugin for checking unresolved static asset paths in Vue SFC templates.",
   "author": "TRIS-H <2218975525@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/TRIS-H/eslint-plugin-import-template#readme",
@@ -11,18 +11,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TRIS-H/eslint-plugin-import-template"
+    "url": "git+https://github.com/TRIS-H/eslint-plugin-import-template.git"
   },
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin",
-    "es6",
-    "jsnext",
-    "modules",
+    "eslint-rule",
+    "vue",
+    "vue3",
+    "vue-sfc",
+    "vue-template",
+    "vue-eslint-parser",
     "assets",
+    "static-assets",
+    "asset-check",
+    "asset-exists",
+    "template-assets",
+    "unresolved-import",
+    "no-unresolved",
+    "src",
+    "href",
+    "src-href",
+    "path-alias",
+    "alias",
     "import",
-    "export"
+    "template"
   ],
   "exports": {
     ".": "./dist/index.mjs",
